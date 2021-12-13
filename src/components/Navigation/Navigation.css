@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background: #2872B9;
+    margin: 1rem;
+    font-size: 18px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: darkgrey;
+    cursor: not-allowed;
+}
